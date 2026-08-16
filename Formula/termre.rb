@@ -7,14 +7,7 @@ class Termre < Formula
   on_macos do
     on_arm do
       url "https://github.com/golonzovsky/termre/releases/download/v#{version}/re-v#{version}-macos-arm64.tar.gz"
-      sha256 "FILL_AFTER_FIRST_RELEASE"
-    end
-  end
-
-  on_linux do
-    on_intel do
-      url "https://github.com/golonzovsky/termre/releases/download/v#{version}/re-v#{version}-linux-x86_64.tar.gz"
-      sha256 "FILL_AFTER_FIRST_RELEASE"
+      sha256 "51f9b77667c5c0602cc5e329d1d7b0e63c3063b81cab6d02e4aeef32d802ecc9"
     end
   end
 
