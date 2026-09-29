@@ -1,20 +1,20 @@
 class Termre < Formula
   desc "TERMinal REader - PDF/book reader for terminals using kitty graphics"
   homepage "https://term.re"
-  version "0.12.1"
+  version "0.12.2"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://github.com/golonzovsky/termre/releases/download/v#{version}/re-v#{version}-macos-arm64.tar.gz"
-      sha256 "5c90ce6d845c36876c27fc3761ae296ccee03009f05f0b2ed4a3f7d1d2f6a5c4"
+      sha256 "6032000090780940332f62e694c7bcb5a170a23a99c2a91008f08b5f8c89e41a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/golonzovsky/termre/releases/download/v#{version}/re-v#{version}-linux-x86_64.tar.gz"
-      sha256 "411b84bdfd598257afebdcc1a131a27afab12b9c902f7d789bf67e44b1a6c056"
+      sha256 "bec7c52c693f7739f8c22792c2dc6162ab682119d1c0e243d48b11433165156b"
     end
   end
 
